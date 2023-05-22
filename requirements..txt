@@ -1,0 +1,11 @@
+flexgen
+torch
+torchvision
+torchaudio
+pytorch3d
+transformers
+tensorflow
+numpy
+espnet
+espnet_model_zoo
+speechbrain
