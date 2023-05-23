@@ -1,6 +1,1 @@
-[submodule "open-calm-7b"]
-	path = open-calm-7b
-	url = https://huggingface.co/cyberagent/open-calm-7b
-[submodule "models"]
-	path = models
-	url = https://huggingface.co/cyberagent/open-calm-7b
+
