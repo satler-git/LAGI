@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flexgen = "*"
+speechbrain = "*"
+transformers = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+
+[dev-packages]
+install = "*"
+cx-freeze = "*"
+bandit = "*"
+
+[requires]
+python_version = "3.10"
+
+[scripts]
+start = "python main.py"
+build = "python build.py build"
+lint = "bandit main.py"
